@@ -1,0 +1,97 @@
+*{
+
+}
+.main{
+}
+body{
+    background-color: #ffffff;
+    background-image: url('vecteezy_world-map-with-country-names_20833849.jpg');
+    font-family:"lora" ,serif;
+}
+.main img{
+    position:absolute;
+    
+}
+.search-wrapper{
+    
+    /* width: 360px; */
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 25px;
+    border-color: rgb(58, 255, 97);
+    padding: 100px 0px;
+    box-shadow: 10px 10px 100px black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    width: 500px;
+
+}
+.search-wrapper input{
+    margin: 10px;
+}
+.search-wrapper h1{
+    margin: 20px;
+}
+
+.search-wrapper button{
+    margin: 20px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: aquamarine;
+    margin: 10px 40px;
+}
+#flag img{
+    width: auto;
+    height: 100%;
+    border: 10px;
+    border-color: black;
+}
+#flag {
+
+    top: 0;
+    
+}
+.space{
+    text-align: center;
+    width: 100%;
+}
+
+
+#tags,#info{
+    z-index: 1;
+
+}
+#tags h3,#info h3{
+    line-height: 5;
+}
+.container{
+    height: 100%;
+    width: auto;
+}
+.container #info{
+    text-align: left;
+}
+.container #tags{
+    text-align: right;
+}
+#emblem{
+    text-align: center;
+    padding-bottom: 200px;
+}
+#emblem img{
+    width: auto;
+    height: 300px;
+}
+@media (max-width: 768px) {
+    .search-wrapper{
+        width: 350px; /* Width for mobile devices */
+    }
+
+    #flag img{
+        width: 350px; /* Adjust the width for mobile devices */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
